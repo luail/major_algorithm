@@ -22,6 +22,8 @@ public class A304가장먼노드 {
 
         boolean[] visited = new boolean[n+1];
         int[] distance = new int[n+1];
+//        방문처리를 위해 굳이 visited를 안두고 distance를 -1로 세팅한 뒤
+//        distance가 -1이면 방문을 안했다는 의미이므로 visited를 따로 안둬도 된다!
 
         Queue<Integer> que = new LinkedList<>();
 
